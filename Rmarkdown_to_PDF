@@ -1,0 +1,25 @@
+Install RMarkdown and render to PDF on MacOS
+
+Install rmarkdown pdf
+
+1. rmarkdown R package
+2. macTeX
+3. pandoc
+
+4. problems during render...
+! LaTeX Error: File `framed.sty' not found.
+
+sudo tlmgr install framed
+
+#error...need to update tlmgr itself
+
+sudo tlmgr update --self
+
+sudo tlmgr install framed
+
+# try render again
+! LaTeX Error: File `titling.sty' not found.
+
+sudo tlmgr install titling
+
+YES!!
