@@ -2,8 +2,8 @@ Install RMarkdown and render to PDF on MacOS
 
 Install rmarkdown pdf
 
-1. rmarkdown R package
-2. macTeX
+1. Rmarkdown R package
+2. macTeX (use BasicTeX for lighter install)
 3. pandoc
 
 4. problems during render...
